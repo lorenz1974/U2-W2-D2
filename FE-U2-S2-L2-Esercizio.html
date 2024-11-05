@@ -132,7 +132,7 @@ EXTRAS
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno"
                             aria-label="Search">
-                        <button class="btn btn-outline-danger " type="submit">Search</button>
+                        <button class="btn btn-outline-danger " type="submit">Cerca</button>
                     </form>
                 </div>
             </div>
@@ -140,19 +140,20 @@ EXTRAS
     </div>
 </header>
 <main>
-    <div class="container border border-black">
+    <div class="container">
 
         <!-- INTESTAZIONE -->
-        <div class="d-flex flex-column align-items-start border-0 border-bottom border-secondary p-5 text-secondary ">
-            <div class="w-100 bg-light d-flex align-items-center border pt-5 border-0 border-bottom border-secondary ">
+        <div
+            class="d-flex flex-column align-items-start border-0 border-bottom border-secondary p-5 text-secondary  bg-body-secondary ">
+            <div class="w-100 d-flex align-items-center border pt-5 border-0 border-bottom border-secondary ">
                 <h1 class="display-1 mb-2">Eveline-R</h1>
-                <p class="display-2 mb-2">
+                <p class="display-2 mb-2 ">
                     <i class="bi bi-dash"></i>
                 </p>
-                <p class="display-1  mb-2 fs-5 flex-grow-1">feel the freedom</p>
+                <p class="display-1 mb-2 fs-5 flex-grow-1">feel the freedom</p>
             </div>
             <h5 class="fst-italic mt-2">Scopri le destinazioni pi&ugrave; del momento!</h5>
-            <button type="button" class="btn btn-info mt-4"
+            <button type="button" class="btn btn-info mt-4 text-white"
                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1.5rem; --bs-btn-font-size: .75rem;">Prenota
                 ora</button>
         </div>
@@ -216,11 +217,13 @@ EXTRAS
         </div>
 
         <!-- WELCOME SUMMER -->
-        <h2 class="fw-bold fs-4 mt-4">Welcom Summer</h2>
+        <h2 class="fw-bold fs-4 mt-4">Welcome Summer</h2>
         <div class="row g-5 row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-6">
             <div class="col">
                 <div class="card shadow">
                     <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">HOT
+                    </span>
                     <div class="card-body">
                         <h5>Titolo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo culpa,
@@ -233,7 +236,9 @@ EXTRAS
             </div>
             <div class="col">
                 <div class="card shadow">
-                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive">
+                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive"><span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">HOT
+                    </span>
                     <div class="card-body">
                         <h5>Titolo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo culpa,
@@ -246,7 +251,9 @@ EXTRAS
             </div>
             <div class="col">
                 <div class="card shadow">
-                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive">
+                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive"><span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">HOT
+                    </span>
                     <div class="card-body">
                         <h5>Titolo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo culpa,
@@ -259,7 +266,9 @@ EXTRAS
             </div>
             <div class="col">
                 <div class="card shadow">
-                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive">
+                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive"><span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">HOT
+                    </span>
                     <div class="card-body">
                         <h5>Titolo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo culpa,
@@ -272,7 +281,9 @@ EXTRAS
             </div>
             <div class="col">
                 <div class="card shadow">
-                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive">
+                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive"><span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">HOT
+                    </span>
                     <div class="card-body">
                         <h5>Titolo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo culpa,
@@ -285,7 +296,9 @@ EXTRAS
             </div>
             <div class="col">
                 <div class="card shadow">
-                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive">
+                    <img src="/asset/img/maldives.jpg" class="card-img-top" alt="Maldive"><span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">HOT
+                    </span>
                     <div class="card-body">
                         <h5>Titolo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo culpa,
@@ -301,21 +314,21 @@ EXTRAS
 
 
         <!-- OFFERTA DEL GIORNO -->
-        <h2 class="fw-bold fs-4 mt-4">Offerta del giorno</h2>
-        <div class="container d-flex px-2 bg-white">
-            <div class="row">
-                <div class="col-7">
+        <h2 class="fw-bold fs-4 mt-4 d-none d-md-flex">Offerta del giorno</h2>
+        <div class=" container d-flex px-2 bg-white">
+            <div class="row d-none d-md-flex">
+                <div class="col-12 col-md-7">
                     <div class="row shadow">
                         <img class="p-0 rounded" src="/asset/img/maldives.jpg" alt="Maldives">
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="row">
-                        <h2 class="display-3">Fushifaru Maldives</h2>
-                        <p class="font-monospace">15.01.2021 - 31.01.2021</p>
-                        <p>Ville a partire da 500 €, non fartele sfuggure"</p>
-                        <div class="lead rounded-5 rounded-pill bg-black text-white m-2 fs-6">Best offer</div>
-                    </div>
+                <div class="col-12 col-md-3">
+
+                    <h2 class="display-3">Fushifaru Maldives</h2>
+                    <p class="font-monospace">15.01.2021 - 31.01.2021</p>
+                    <p>Ville a partire da 500 €, non fartele sfuggure"</p>
+                    <span class="lead rounded-5 rounded-pill bg-black text-white m-2 fs-6">Best offer</span>
+
                 </div>
             </div>
         </div>
@@ -349,45 +362,48 @@ EXTRAS
         <h2 class="fw-bold fs-4 mt-4 text-center">Dicono di noi</h2>
         <div class="container">
             <div class="row mt-3">
-                <div class="col-1">
-                    <div class="row"><img class="rounded-circle border border-2 border-info w-100"
-                            src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg">
-                    </div>
+                <div class="col-1 d-none d-md-block">
+                    <img class="rounded-circle border border-2 border-info w-100"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg">
                 </div>
                 <div class="col-11">
-                    <div class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate nisi sequi
-                        eos architecto minima repudiandae amet obcaecati, voluptate praesentium ipsam suscipit quae sit
-                        sunt, earum, totam recusandae delectus rem?</div>
+                    <div class="">
+                        <p class="fw-bold">Username</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate nisi sequi
+                            eos architecto minima repudiandae amet obcaecati, voluptate praesentium ipsam suscipit quae
+                            sit
+                            sunt, earum, totam recusandae delectus rem?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-1 d-none d-md-block">
+                    <img class="rounded-circle border border-2 border-info w-100"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg">
+                </div>
+                <div class="col-11">
+                    <p class="fw-bold">Username</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate nisi sequi
+                        eos architecto minima repudiandae amet obcaecati, voluptate praesentium ipsam suscipit quae
+                        sit
+                        sunt, earum, totam recusandae delectus rem?</p>
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-1">
-                    <div class="row">
-                        <img class="rounded-circle border border-2 border-info w-100"
-                            src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg">
-                    </div>
+                <div class="col-1 d-none d-md-block">
+                    <img class="rounded-circle border border-2 border-info w-100"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg">
                 </div>
                 <div class="col-11">
-                    <div class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate nisi sequi
-                        eos architecto minima repudiandae amet obcaecati, voluptate praesentium ipsam suscipit quae sit
-                        sunt, earum, totam recusandae delectus rem?</div>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-1">
-                    <div class="row">
-                        <img class="rounded-circle border border-2 border-info w-100"
-                            src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg">
-                    </div>
-                </div>
-                <div class="col-11">
-                    <div class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate nisi sequi
-                        eos architecto minima repudiandae amet obcaecati, voluptate praesentium ipsam suscipit quae sit
-                        sunt, earum, totam rec usandae delectus rem?</div>
+                    <p class="fw-bold">Username</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate nisi sequi
+                        eos architecto minima repudiandae amet obcaecati, voluptate praesentium ipsam suscipit quae
+                        sit
+                        sunt, earum, totam recusandae delectus rem?</p>
                 </div>
             </div>
         </div>
-
     </div>
 </main>
 <footer>
